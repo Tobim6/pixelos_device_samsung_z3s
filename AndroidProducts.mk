@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_z3s.mk
+    $(LOCAL_DIR)/custom_z3s.mk
