@@ -22,7 +22,7 @@ namespace_imports = [
     'device/samsung/universal9830-common',
     'hardware/samsung',
     'hardware/samsung_slsi-linaro/exynos',
-    'hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3',
+    'hardware/samsung_slsi-linaro/exynos/gralloc3',
     'hardware/samsung_slsi-linaro/graphics',
     'hardware/samsung_slsi-linaro/interfaces',
     'vendor/samsung/universal9830-common',

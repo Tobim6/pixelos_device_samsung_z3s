@@ -1,120 +1,120 @@
 # Vendor security patch level 2025-01-01
 
 # Audio (Dolby Atmos)
-vendor/etc/dolby/dax-default.xml
-vendor/lib/soundfx/libswdap.so
+vendor/etc/dolby/dax-default.xml|21117db09045d15b57463730fa51437115e8f606
+vendor/lib/soundfx/libswdap.so|7f72e64937ef63950d44d2c18f94c0768ebbd461
 
 # Audio (Firmware)
-vendor/firmware/APBargeIn_AUDIO_SLSI.bin
-vendor/firmware/APBiBF_AUDIO_SLSI.bin
-vendor/firmware/APDV_AUDIO_SLSI.bin
-vendor/firmware/APTV_AUDIO_SLSI.bin
-vendor/firmware/AP_AUDIO_SLSI.bin
-vendor/firmware/SoundBoosterParam.bin
+vendor/firmware/APBargeIn_AUDIO_SLSI.bin|695f14ba349c8a4580a47505ce048b11dd96feff
+vendor/firmware/APBiBF_AUDIO_SLSI.bin|d2c7a80061ce6ccc62ee8f87bb04c6aa83047e18
+vendor/firmware/APDV_AUDIO_SLSI.bin|141783d9f15de65017ff72be2148c1ad6d5c683d
+vendor/firmware/APTV_AUDIO_SLSI.bin|f40016af11c78222aa6b69f24019574faf5fca68
+vendor/firmware/AP_AUDIO_SLSI.bin|83aafcfeba1153cb36153c54caf73f9d8dabaa57
+vendor/firmware/SoundBoosterParam.bin|402b657a4989d9f1c66be5b85e618842b73a3ba4
 
 # Bluetooth
-vendor/firmware/bcm4375B1_murata.hcd
-vendor/firmware/bcm4375B1_semco.hcd
-vendor/firmware/bcm4375B1_semco_sem.hcd
-vendor/firmware/bcmdhd_clm.blob
-vendor/firmware/bcmdhd_mfg.bin_b1
-vendor/firmware/bcmdhd_mon.bin_b1
-vendor/firmware/bcmdhd_sta.bin_b1
+vendor/firmware/bcm4375B1_murata.hcd|c0ef1378ab4fea3a21bd34a73608e95990594402
+vendor/firmware/bcm4375B1_semco.hcd|769accf22b8bc092a6810f87e243d8eb49ab8183
+vendor/firmware/bcm4375B1_semco_sem.hcd|54c9091510dcf5d018857a6d05cb9118d7b3574c
+vendor/firmware/bcmdhd_clm.blob|e418d186ead410e4f8e91baa67f61f8354c26a92
+vendor/firmware/bcmdhd_mfg.bin_b1|aee18bc6b058fa0b92a8d0876d8b92291b245a75
+vendor/firmware/bcmdhd_mon.bin_b1|f8ec4381ed7e70d49e30921aa24a59954b9833f4
+vendor/firmware/bcmdhd_sta.bin_b1|f32b6079800ebb13d236747f2cc03b0c92fd7d39
 
 # Camera
-vendor/lib64/hw/camera.exynos990.so
-vendor/lib64/libexynoscamera3.so
-vendor/lib64/libexynoscamera_bayergdc_plugin.so
-vendor/lib64/libexynoscamera_fakemultiframe.so
-vendor/lib64/libexynoscamera_vpl_plugin.so
-vendor/lib64/libTOFProc_interface.so
-vendor/lib64/libdatazip.so
-vendor/lib64/libiu456_datapath_processor.so
+vendor/lib64/hw/camera.exynos990.so|e072af6b8f1156860ff02061456bdb0f7c3d96bd
+vendor/lib64/libexynoscamera3.so|8157708ec118f0018531984da1ac83080e23de37|574982cf4a4e05fce2bc8ad89b513299a1fa7761
+vendor/lib64/libexynoscamera_bayergdc_plugin.so|248332331bf2f9a3013fd4f5b1208c61e9b6f1c2
+vendor/lib64/libexynoscamera_fakemultiframe.so|54948075463c98327736b2f5f086efba7026a89e
+vendor/lib64/libexynoscamera_vpl_plugin.so|ab53966de790d5027777f18acd8d5e6dfc18b334
+vendor/lib64/libTOFProc_interface.so|e1fa16d052361b013f82ebaf9d1049c2dd1759fc
+vendor/lib64/libdatazip.so|da0edcb77ca9f266f1b2a2ca05394b7aa991f7cc
+vendor/lib64/libiu456_datapath_processor.so|af6b9732c5172421ea2503a70c8b17dd17c37f05|00001d2fe542dead529ba2ee2a3779cd25866e3f
 
 # Camera (Firmware)
-vendor/firmware/dual_cal_wide_swide.bin
-vendor/firmware/dual_cal_wide_tele.bin
+vendor/firmware/dual_cal_wide_swide.bin|8bea2d19c65c8e7bfb26a61a87506ca465c5e0c4
+vendor/firmware/dual_cal_wide_tele.bin|6e4a91f2b558268c3be1d3a8716b03844ba577c7
 
 # Hotword Enrollment
-product/priv-app/HotwordEnrollmentOKGoogleEx3CORTEXM4/HotwordEnrollmentOKGoogleEx3CORTEXM4.apk
-product/priv-app/HotwordEnrollmentXGoogleEx3CORTEXM4/HotwordEnrollmentXGoogleEx3CORTEXM4.apk
+product/priv-app/HotwordEnrollmentOKGoogleEx3CORTEXM4/HotwordEnrollmentOKGoogleEx3CORTEXM4.apk|5cb92c42c287acc13e6d58a100b66e5cefcac3bd
+product/priv-app/HotwordEnrollmentXGoogleEx3CORTEXM4/HotwordEnrollmentXGoogleEx3CORTEXM4.apk|04a6301e42a3bf0c70a06e7c9b1fac4529ab51f5
 
 # Fingerprint
-vendor/lib64/libbauthserver.so
-vendor/lib64/libbauthtzcommon.so
-vendor/lib64/libegis_fp_normal_sensor_test.so
-vendor/lib64/libgf_in_system_lib.so
-vendor/lib64/libqfp_sensortest.so
-vendor/lib64/libsynaFpSensorTestNwd.so
+vendor/lib64/libbauthserver.so|e6d68c7f25d0276e204005df5b2a961d0f6eebe9
+vendor/lib64/libbauthtzcommon.so|dc6d7d4c708765b1a3bed573e074466df2c4041d
+vendor/lib64/libegis_fp_normal_sensor_test.so|1669383a4c88f0fcdd9cf32bc1208e7e3dd480db
+vendor/lib64/libgf_in_system_lib.so|2d905b9b22b830442a2a5536d9f92ab626bf4acd
+vendor/lib64/libqfp_sensortest.so|b1bdd89047b8af32d7ee189b1dd82321462c238d
+vendor/lib64/libsynaFpSensorTestNwd.so|222bb90c3860684a3c86bb85c8e2cf7c457a0939
 
 # Firmware
-vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
-vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
-vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
-vendor/firmware/cs40l20.bin
-vendor/firmware/is_lib.bin
-vendor/firmware/is_mcu_fw.bin
-vendor/firmware/is_rta.bin
-vendor/firmware/rxse.bin
-vendor/firmware/setfile_2l3.bin
-vendor/firmware/setfile_gh1.bin
-vendor/firmware/setfile_hm1.bin
-vendor/firmware/setfile_imx586.bin
-vendor/firmware/a96t365_z3s_eur.bin
-vendor/firmware/txse1.bin
-vendor/firmware/vts.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin|9616e91162e7dd3c009d1213acdfd67d5353222b
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin|8eed5143aca2a416e6816493b0f772ae5459530f
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin|066c65675a13dcaa32dd558900689927a8fca755
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin|f723b28e31cab1019859c2918f0519a48d5f7321
+vendor/firmware/cs40l20.bin|899f580f72e4b5c993c70c523275d4ed2043e3ee
+vendor/firmware/is_lib.bin|c358245be2f7aefe9a48cb110ad48bfb8c1dfb05
+vendor/firmware/is_mcu_fw.bin|1cbae090ba49877d0e35cba7f857a29a88b31f1e
+vendor/firmware/is_rta.bin|1a250e22ae462004ce03e71539483c5ca16b0bed
+vendor/firmware/rxse.bin|22bba3d04197da6ce6cc632f030aea548f009ad0
+vendor/firmware/setfile_2l3.bin|97e8ae21a57e2b4e01427bfbc4e30a14f9c523e2
+vendor/firmware/setfile_gh1.bin|126ba4f8c1de7c0c726588eb62bb90451758137f
+vendor/firmware/setfile_hm1.bin|d1c00470ed26eedd5ee2a55fbaecbe050e2ad644
+vendor/firmware/setfile_imx586.bin|226fab8cf06a3c54f0c53d12b192053aacefeb4d
+vendor/firmware/a96t365_z3s_eur.bin|ac9964badbb537406e5cb1f2b5182ae5805a9a69
+vendor/firmware/txse1.bin|5accfb630749f6279859dece7ab9c5ef87590ae5
+vendor/firmware/vts.bin|bda63a37d3266330aa5df879fb0fde377a12667f
 
 # GPS/GNSS
-vendor/bin/hw/gpsd
-vendor/lib64/libwrappergps.so
+vendor/bin/hw/gpsd|699795145144b033739959330f0b5a96117ebb77
+vendor/lib64/libwrappergps.so|eeba104faab575aef7aee167c46808d9c76e73be
 
 # NFC
-vendor/etc/nfc/sec_s3nsen4_hwreg.bin
-vendor/etc/nfc/sec_s3nsen4_swreg.bin
-vendor/firmware/nfc/sec_s3nsen4_firmware.bin
+vendor/etc/nfc/sec_s3nsen4_hwreg.bin|36c16e56e5f4b2a488e2cff9784e4073d0397534
+vendor/etc/nfc/sec_s3nsen4_swreg.bin|871d42f7b5a9c87157f79c6acb44a09b26c28211
+vendor/firmware/nfc/sec_s3nsen4_firmware.bin|5052ed273c4d2dc18fb645b901d39f0844b52828
 
 # RIL
-vendor/etc/floating_feature.xml
+vendor/etc/floating_feature.xml|98e98644e36141b003eeeccdae762e8c821225be
 
 # Sensors
-vendor/lib64/sensors.grip.so
-vendor/lib64/sensors.sensorhub.so
+vendor/lib64/sensors.grip.so|e46c1a8deaf22f8d95b07b47fede2219e8831ecc
+vendor/lib64/sensors.sensorhub.so|077d03187469f7159e7ef1b50ffbe27c9d216590|d355de67f6de970f5341eb39750b4479b3838276
 
 # Teegris
-vendor/bin/tzdaemon
-vendor/lib64/libteecl.so
-vendor/lib64/libuuid.so;MODULE_SUFFIX=_vendor
+vendor/bin/tzdaemon|b967b441a556318384deaac970104c6b6b7e8060
+vendor/lib64/libteecl.so|68fda2d517b82cbd87a11817835143c389fe663d
+vendor/lib64/libuuid.so;MODULE_SUFFIX=_vendor|edc9a3c38bb26e6582d0f392d8a484e80504c396
 
 # Teegris Firmware
-vendor/tee/00000000-0000-0000-0000-000000010081
-vendor/tee/00000000-0000-0000-0000-000000534b4d
-vendor/tee/00000000-0000-0000-0000-0000534b504d
-vendor/tee/00000000-0000-0000-0000-0050524f4341
-vendor/tee/00000000-0000-0000-0000-0053545354ab
-vendor/tee/00000000-0000-0000-0000-42494f535542
-vendor/tee/00000000-0000-0000-0000-46494e474502
-vendor/tee/00000000-0000-0000-0000-474154454b45
-vendor/tee/00000000-0000-0000-0000-4b45594d5354
-vendor/tee/00000000-0000-0000-0000-505256544545
-vendor/tee/00000000-0000-0000-0000-534258505859
-vendor/tee/00000000-0000-0000-0000-5345435f4652
-vendor/tee/00000000-0000-0000-0000-53454d655345
-vendor/tee/00000000-0000-0000-0000-54412d48444d
-vendor/tee/00000000-0000-0000-0000-657365636f6d
-vendor/tee/driver/00000000-0000-0000-0000-53626f786476
+vendor/tee/00000000-0000-0000-0000-000000010081|0954befdeea7cfcce25f77c9627b718a671135a6
+vendor/tee/00000000-0000-0000-0000-000000534b4d|e440c238d3ba2d947a73163bd0fcc14a1d7dd725
+vendor/tee/00000000-0000-0000-0000-0000534b504d|c80c4b01556afac9bc008c1eb394a28ee1ff9330
+vendor/tee/00000000-0000-0000-0000-0050524f4341|007d2bdfcd1632402094ee3cb8947790e0dcdc1b
+vendor/tee/00000000-0000-0000-0000-0053545354ab|cdfb4b15de67d0726a876b8304a3e2d9fb22cebd
+vendor/tee/00000000-0000-0000-0000-42494f535542|68727ed1084b8bfa363f64a0f2dc6eff0394b8a1
+vendor/tee/00000000-0000-0000-0000-46494e474502|329bfd8f7597ffbd395c04d02627622f9ba339ab
+vendor/tee/00000000-0000-0000-0000-474154454b45|9c14eb2dd4b0c744b2f024f7a7f848e0e635ed20
+vendor/tee/00000000-0000-0000-0000-4b45594d5354|d15116d0f2d6f3b7deca126ad91acffe0df0c519
+vendor/tee/00000000-0000-0000-0000-505256544545|05312b913bf1747afaf2b983056158f9082e1af9
+vendor/tee/00000000-0000-0000-0000-534258505859|8235594d56dbc01c5a5ac6c3d6addd50a99ad071
+vendor/tee/00000000-0000-0000-0000-5345435f4652|687b4e9c349edd445081ec47f577dac2c0911a4e
+vendor/tee/00000000-0000-0000-0000-53454d655345|963e1c283c24f7328f42340efee7d1057cf8daac
+vendor/tee/00000000-0000-0000-0000-54412d48444d|fc73941c7c9ae090d425bb0b815754a220c5074b
+vendor/tee/00000000-0000-0000-0000-657365636f6d|a50342cc714eedb60d40d08596958121a7984e45
+vendor/tee/driver/00000000-0000-0000-0000-53626f786476|da12d736b9e26fe7f34850339fbf64cdc202ff49
 
 # Wi-Fi
-vendor/etc/wifi/indoorchannel.info
-vendor/firmware/nvram.txt_1rh_es11_b0
-vendor/firmware/nvram.txt_1rh_es12_b0
-vendor/firmware/nvram.txt_1rh_es13_b0
-vendor/firmware/nvram.txt_1rh_es32_b0
-vendor/firmware/nvram.txt_1rh_es41_b1
-vendor/firmware/nvram.txt_1rh_es42_b1
-vendor/firmware/nvram.txt_1rh_es43_b1
-vendor/firmware/nvram.txt_CS01_semco_b1
-vendor/firmware/nvram.txt_ES00_semco_b0
-vendor/firmware/nvram.txt_ES01_semco_b0
-vendor/firmware/nvram.txt_ES02_semco_b0
-vendor/firmware/nvram.txt_ES03_semco_b0
+vendor/etc/wifi/indoorchannel.info|b13ad3deacee7308eedf2b31cd6260c36742cf27
+vendor/firmware/nvram.txt_1rh_es11_b0|6b57d03ad5f8803769503ff0af48bf917dec84aa
+vendor/firmware/nvram.txt_1rh_es12_b0|e107f14389d9ab8f1f5d2e74af261f059cd8bbe6
+vendor/firmware/nvram.txt_1rh_es13_b0|6242992db3adfe10682a7d79ac9b272e983848a4
+vendor/firmware/nvram.txt_1rh_es32_b0|0aefff9f2e5de59759f1389badf5930cf7db50e8
+vendor/firmware/nvram.txt_1rh_es41_b1|158b7f0197ab1daebebf4ec8269a064418e259e0
+vendor/firmware/nvram.txt_1rh_es42_b1|e6e6749bb402fe1526afad75571ff5ace2ecd1a0
+vendor/firmware/nvram.txt_1rh_es43_b1|25cb74207579992c08619898bc451eebc015126f
+vendor/firmware/nvram.txt_CS01_semco_b1|fb69ba2527e65a1af53e955b984b6d553ea83913
+vendor/firmware/nvram.txt_ES00_semco_b0|0d049a3decc9d3b64870b69c4b05c3cf8c21aea0
+vendor/firmware/nvram.txt_ES01_semco_b0|d3b1bcf66a95248b13285cf793bc73b26e810abd
+vendor/firmware/nvram.txt_ES02_semco_b0|e67dae40d1f5dd82e890a62e30d58d68df43a8e4
+vendor/firmware/nvram.txt_ES03_semco_b0|badf27fd0bb3b9ccff0937eb3457e8dc09b79adc
