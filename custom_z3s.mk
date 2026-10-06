@@ -49,3 +49,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Define PDA property for camera
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.build.PDA=G988BXXSNHYB1
+
+# Release signing (own keys, not the default AOSP testkey)
+PRODUCT_DEFAULT_DEV_CERTIFICATE := keys/z3s/releasekey
+PRODUCT_EXTRA_RECOVERY_KEYS := keys/z3s/releasekey
