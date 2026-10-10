@@ -41,20 +41,6 @@ $(call soong_config_set,samsungCameraVars,extra_ids,52) # ID=52 is telephoto
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4633128672291735937.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4633128672291735937.xml
 
-# NFC
-# TEST: neither open-source community HAL (hardware_samsung_slsi_nfc nor the older
-# hardware_samsung_nfc) can complete a raw Mifare Classic frame exchange -- a frida
-# trace on /dev/sec-nfc traffic showed the exact same generic failure response for
-# every command type (auth, read, even RATS, which a real Classic card never answers),
-# with both HALs, confirming the bug is in their raw-Mifare-interface code itself, not
-# any config value (NFA_PROPRIETARY_CFG is byte-identical to stock's). The one thing
-# confirmed working is Samsung's own real stock binary, extracted from the device's
-# actual stock firmware (AP_extracted) -- wiring that in directly instead of either
-# community reimplementation. z3s-specific: the blob/module only exists in
-# vendor/samsung/z3s, so this cannot live in the shared device-common.mk.
-PRODUCT_PACKAGES += \
-    sec.android.hardware.nfc@1.2-service
-
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
