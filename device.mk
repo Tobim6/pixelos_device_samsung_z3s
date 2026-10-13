@@ -73,6 +73,14 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set_bool,wpa_supplicant_8,board_wlan_bcmdhd_sae,true)
 
+# BSG GCam default config (z3s/S20 Ultra only -- not shared via
+# device-common.mk). Ships the config on /vendor and seeds a copy onto
+# external storage at boot so it's ready to load from GCam's own file
+# picker with no download/transfer step; see gcam_default_config.rc.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gcam/MGC_z3s_S20base_v7_nofb4k60.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gcam/MGC_z3s_S20base_v7_nofb4k60.xml \
+    $(LOCAL_PATH)/configs/init/gcam_default_config.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gcam_default_config.rc
+
 # Inherit from Hubble
 $(call inherit-product, device/samsung/universal9830-common/device-hubble.mk)
 

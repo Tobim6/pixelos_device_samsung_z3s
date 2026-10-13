@@ -1,0 +1,18 @@
+# Seeds BSG GCam's default z3s (S20 Ultra) config onto external storage so
+# it's available to pick from GCam's own "load config" file browser
+# (double-tap the dark area around the shutter button) without the user
+# needing to download or transfer anything themselves. Re-copies every
+# boot (cheap, ~115KB) so it stays present even if the user removes it;
+# it does not touch any config the user saves under a different filename.
+#
+# /data/media/0 is the primary user's external-storage backing path,
+# written directly here (before the FUSE/MediaProvider layer that
+# presents it as /sdcard is even running) rather than through /sdcard
+# itself, matching how other ROM customizations (default wallpapers,
+# ringtones) seed shared storage at boot.
+on post-fs-data
+    mkdir /data/media/0/GCam 0770 media_rw media_rw
+    mkdir /data/media/0/GCam/Configs 0770 media_rw media_rw
+    copy /vendor/etc/gcam/MGC_z3s_S20base_v7_nofb4k60.xml /data/media/0/GCam/Configs/MGC_z3s_S20base_v7_nofb4k60.xml
+    chown media_rw media_rw /data/media/0/GCam/Configs/MGC_z3s_S20base_v7_nofb4k60.xml
+    restorecon_recursive /data/media/0/GCam
